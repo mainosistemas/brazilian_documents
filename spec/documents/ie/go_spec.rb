@@ -40,6 +40,7 @@ describe BRDocuments::IE::GO do
       '10.005.565-6', # PRODUTOS ALIMENTICIOS ORLANDIA  1986
       '10.314.113-8', # SAUDE INDUSTRIA E COMERCIO DE AGUA MINERALE SERVIÇOS LTDA 1999
       '10.446.955-2', # 2009
+      '11.410.013-6', # Rodrigo Sabino Da Silva
     ]
   end
 
