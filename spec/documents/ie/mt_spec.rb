@@ -19,6 +19,7 @@ describe BRDocuments::IE::MT do
       1300000191
       1310000019
       13000019
+      15.002.535-9
     )
 
     @valid_verify_digits = {
@@ -37,6 +38,7 @@ describe BRDocuments::IE::MT do
       '13.379.950-6', # GCLP COMÉRCIO DE ROUPAS EIRELI
       '13.201.070-4', # NABI IMPORT INDUSTRIA E COMERCIO LTDA - EPP
       '13.371.269-9', # BAYER & CIA LTDA ME
+      '14.002.535-9'
     ]
   end
 

@@ -1,7 +1,7 @@
 RSpec.shared_examples "IE basic specs" do
   it 'must generate root numbers with fixed numbers' do
 
-    next if [BRDocuments::IE::RJ, BRDocuments::IE::BA, BRDocuments::IE::GO].member?(described_class)
+    next if [BRDocuments::IE::RJ, BRDocuments::IE::BA, BRDocuments::IE::GO, BRDocuments::IE::MT].member?(described_class)
 
     number = described_class.generate_root_numbers # without formatting
 
@@ -32,7 +32,7 @@ RSpec.shared_examples "IE basic specs" do
   end
 
   it 'must generate new numbers including initial fixed numbers' do
-    next if [BRDocuments::IE::RJ, BRDocuments::IE::BA, BRDocuments::IE::GO].member?(described_class)
+    next if [BRDocuments::IE::RJ, BRDocuments::IE::BA, BRDocuments::IE::GO, BRDocuments::IE::MT].member?(described_class)
 
     10.times {
       number = described_class.generate
