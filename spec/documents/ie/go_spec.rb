@@ -13,6 +13,9 @@ describe BRDocuments::IE::GO do
       10.139.969-3
       10139969-3
       101399693
+      20.687.704-8
+      20687704-8
+      206877048
     )
 
     @invalid_numbers = %w(

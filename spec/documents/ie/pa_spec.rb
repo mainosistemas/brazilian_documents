@@ -13,6 +13,9 @@ describe BRDocuments::IE::PA do
       15.069.665-5
       15069665-5
       150696655
+      75.000.002-3
+      75000002-3
+      750000023
     )
 
     @invalid_numbers = %w(

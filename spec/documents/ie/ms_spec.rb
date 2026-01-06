@@ -13,6 +13,9 @@ describe BRDocuments::IE::MS do
       28.008.461-7
       28.008461-7
       280084617
+      50.964.930-0
+      50.964930-0
+      509649300
     )
 
     @invalid_numbers = %w(
