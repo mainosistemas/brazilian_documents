@@ -22,6 +22,7 @@ describe BRDocuments::IE::GO do
       10.139.969-31
       10.139.96-31
       110.139.969-3
+      259876543
     )
 
     @valid_verify_digits = {

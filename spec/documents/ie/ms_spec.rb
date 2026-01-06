@@ -22,6 +22,7 @@ describe BRDocuments::IE::MS do
       28.008.461-71
       28.1008.461-7
       28.108.46-7
+      509876543
     )
 
     @valid_verify_digits = {

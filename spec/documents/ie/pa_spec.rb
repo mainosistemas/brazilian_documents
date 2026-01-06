@@ -13,15 +13,16 @@ describe BRDocuments::IE::PA do
       15.069.665-5
       15069665-5
       150696655
-      75.000.002-3
-      75000002-3
-      750000023
+      75.069.570-6
+      75069570-6
+      750695706
     )
 
     @invalid_numbers = %w(
       1506966551
       150696651
       1510696655
+      761234567
     )
 
     @valid_verify_digits = {
@@ -35,6 +36,7 @@ describe BRDocuments::IE::PA do
       '15.074.998-8', # COMPANHIA DE SANEAMENTO DO PARA
       '15.286.652-3', # Companhia Docas do Para
       '15.050.675-9', # Banpara - Banco do Estado do Para S A 26/10/1961
+      '75.069.570-6', # Longshan Xiang
     ]
   end
 
